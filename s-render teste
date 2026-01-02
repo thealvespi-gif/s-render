@@ -1,0 +1,7 @@
+FROM nyakaspeter/stremio-torrent-stream:latest
+
+# Porta padrão usada pelo addon
+EXPOSE 58827
+
+# Comando padrão da imagem
+CMD ["stremio-torrent-stream"]
